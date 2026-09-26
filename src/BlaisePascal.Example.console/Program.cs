@@ -6,13 +6,23 @@ public class Program// Questa e una classe
     public static void Main()
     {
 
-        Console.WriteLine("Benvenuto nella libreria EasyLibrary");
+        Console.WriteLine("inserisc il nome del cliente");
+        string nomeCliente = Console.ReadLine();
+
+        Console.WriteLine($"Benvenuto {nomeCliente} nella libreria EasyLibrary");
+
+        Console.WriteLine("inserisc il tipo di spedizione");
+        string tipoDiCOnsegna = (Console.ReadLine());
+
+
+
         int costoSpedizioneSingoloPacco = 5;
         costoSpedizioneSingoloPacco = 10;
 
-        int numeroPacchiComprati = 2;
+        Console.WriteLine("inserisc il nuro di pacchi acquistati");
+        int numeroPacchiComprati = int.Parse(Console.ReadLine());
 
-        string tipoDiCOnsegna = "Standard";
+        
 
         int costoTotale = costoSpedizioneSingoloPacco * numeroPacchiComprati;
 
