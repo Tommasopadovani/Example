@@ -6,6 +6,8 @@
 
         private const int maxBrightness = 100; // costante
 
+        public lamp() { }
+
     }
 }
  

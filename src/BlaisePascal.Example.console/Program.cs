@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices.Marshalling;
+﻿using BlaisePascal.Example.Domain;
+using System.Runtime.InteropServices.Marshalling;
 
 public class Program// Questa e una classe
 {
@@ -28,6 +29,8 @@ public class Program// Questa e una classe
 
         Console.WriteLine("il tipo di consegna selezionato è " + tipoDiCOnsegna);
         Console.WriteLine($"il costo totale è {costoTotale} ");
+
+        lamp lamp1 = new lamp(); //ipo, nome oggetto, ugaule , new, tipo 
     }
 
 }
