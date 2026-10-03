@@ -20,6 +20,8 @@ namespace BlaisePascal.Example.Domain
                 if (value < 0)
                 {
                     throw new ArgumentException("Odometer value cannot be negative.");
+
+                    _odometerKm = value;
                 }
             }
         }
