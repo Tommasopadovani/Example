@@ -7,15 +7,28 @@ namespace BlaisePascal.Example.Domain
     public class Vehicle
     {
         private int _id;
-        private string _LicensePlate;
         private int _odometerKm;
         private double _dailyRate;
         private double _fuelLevlPercentage;
 
-        public string GEtLicensePlate()
-        {
-            return _LicensePlate;
+        public string LicensePlate { get; private set; }
+
+        //unico metodo sewnza tipo di ritorno, costruttore della classe
+        public Vehicle(string licensePlate)
+        { 
+         LicensePlate= licensePlate;        
         }
+
 
     }
 }
+
+
+
+
+
+
+
+
+
+
