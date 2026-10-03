@@ -13,8 +13,6 @@ public class Program// Questa e una classe
         string licence = vehicle.LicensePlate;
 
         
-
-        Console.WriteLine(vehicle);
         Console.WriteLine(licence);
     }
 
